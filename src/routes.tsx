@@ -42,7 +42,7 @@ import Redirect from "./Redirect";
 const AppRoutes = () => (
   <Routes>
     <Route path="/" element={<Redirect />} />
-    {/* <Route path="/" element={<SignInPage />} /> */}
+    <Route path="/" element={<SignInPage />} />
     <Route path="/admin/login" element={<SignInPage />} />
     <Route path="/admin/forgot-password" element={<ForgotPassword />} />
     <Route path="/admin/update-password" element={<VerifyOtpPage />} />
