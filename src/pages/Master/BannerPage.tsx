@@ -480,6 +480,9 @@ const BannerPage: React.FC = () => {
                         Email
                       </th>
                       <th scope="col" className="px-4 py-3">
+                        Phone
+                      </th>
+                      <th scope="col" className="px-4 py-3">
                         Timestamp
                       </th>
                     </tr>
@@ -496,6 +499,7 @@ const BannerPage: React.FC = () => {
                             {item.firstname} {item.lastname}
                           </td>
                           <td className="p-4 text-gray-900">{item.email}</td>
+                          <td className="p-4 text-gray-900">{item.phone_number}</td>
                           <td className="p-4 text-gray-900">
                             {new Date(item.activity_timestamp).toLocaleString()}
                           </td>
