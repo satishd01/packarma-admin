@@ -1,5 +1,4 @@
 import axios from "axios";
-import { BACKEND_API_KEY } from "./ApiKey";
 
 const api = axios.create({
   baseURL: "https://packarma.shellcode.cloud",

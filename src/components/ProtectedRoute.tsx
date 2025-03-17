@@ -1,7 +1,6 @@
 import React, { useEffect, ReactNode, useState } from "react";
 import { Navigate, useLocation, useNavigate } from "react-router-dom";
 import { useUser } from "../context/userContext";
-import { BACKEND_API_KEY } from "../../utils/ApiKey";
 import api from "../../utils/axiosInstance";
 import { Spinner } from "flowbite-react";
 import toast from "react-hot-toast";

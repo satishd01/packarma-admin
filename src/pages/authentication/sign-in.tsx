@@ -3,7 +3,6 @@ import type { FC } from "react";
 import { useState } from "react";
 import api from "../../../utils/axiosInstance";
 import { Link, useNavigate } from "react-router-dom";
-import { BACKEND_API_KEY } from "../../../utils/ApiKey";
 
 const SignInPage: FC = function () {
   const [email, setEmail] = useState("");
