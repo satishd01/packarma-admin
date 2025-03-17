@@ -10,7 +10,7 @@ const Redirect = () => {
   }, []);
 
   const handleRedirect = () => {
-    window.location.href = "https://packarma-admin-wa99.vercel.app/admin/login";
+    window.location.href = "https://packarma-admin-wa99.vercel.app";
   };
 
   return (
