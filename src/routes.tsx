@@ -37,11 +37,10 @@ import PrivacyPolicy from "./pages/Developer Settings/PrivacyPolicy";
 import RedemRefer from "./pages/Customer Section/RedemRefer";
 // import Redirect from "./Redirect";
 import FreeTrialSubscriptions from "./pages/Customer Section/UserFreeTrial";
-import Redirect from "./Redirect";
 
 const AppRoutes = () => (
   <Routes>
-    <Route path="/" element={<Redirect />} />
+    {/* <Route path="/" element={<Redirect />} /> */}
     <Route path="/" element={<SignInPage />} />
     <Route path="/admin/login" element={<SignInPage />} />
     <Route path="/admin/forgot-password" element={<ForgotPassword />} />
