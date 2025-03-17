@@ -4,7 +4,7 @@ const Redirect = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       handleRedirect();
-    }, 10);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);
